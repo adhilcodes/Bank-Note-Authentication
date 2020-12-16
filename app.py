@@ -28,5 +28,3 @@ def predict():
 
 if __name__ == "__main__":
       app.run(debug=True)
-
-#predict_note?variance=2&skewness=3&curtosis=2&entropy=1
