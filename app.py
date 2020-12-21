@@ -6,7 +6,7 @@ import pickle
 app = Flask(__name__)
 
 
-pickle_in = open("classifier.pkl", "rb")
+pickle_in = open(r"./classifier.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 @app.route('/')
